@@ -5,13 +5,20 @@
     <title>Resume</title>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/styleFirstPage.css">
-    <script src="script/darkTheme.js"></script>
 </head>
 <body>
 <div class="resume">
     <section>
         <h1>Кротов Владислав Юрьевич</h1>
         <h2>FrontEnd Developer</h2>
+
+        <div class="theme-switch-wrapper">
+            <label class="theme-switch">
+                <input type="checkbox" class="theme-switch__checkbox"/>
+                <div class="slider round"></div>
+            </label>
+            <span class="theme-switch__label">Dark Mode</span>
+        </div>
 
         <div class="contacts">
             <div class="contact">
@@ -81,5 +88,6 @@
         </div>
     </section>
 </div>
+<script src="script/darkTheme.js"></script>
 </body>
 </html>
